@@ -1,0 +1,102 @@
+@charset "UTF-8";
+
+@media screen  and (max-width:768px){
+
+    .dadPhone{
+        margin: auto;
+        height: auto;
+        width: auto;
+        position: absolute;
+        left: 25px;
+        top: 570px;
+        display: none;
+    }
+
+    .dadPhone:hover .hidden-text{
+        display: none;
+    }
+
+    .phone{
+        display: none;
+        width: 50px;
+
+    }
+
+    .homemain{
+        position: absolute;
+        left: 0px;
+        
+        height: 1200px;
+        
+    }
+
+    .register{
+        left: 250px;
+        top: 30px;
+    }
+
+    
+
+    
+}
+
+@media screen and (max-width:320px){
+
+    .register{
+        width: 319;
+        position: absolute;
+        left: 8px;
+    }
+
+
+}
+
+@media screen and (min-width:321px) and (max-width:376px){
+
+    .register{
+        width: 319;
+        position: absolute;
+        left: 35px;
+    }
+
+
+}
+
+@media screen and (min-width:377px) and (max-width:475px){
+
+    .register{
+
+        position: absolute;
+        left: 55px;
+    }
+}
+
+@media screen and (min-width:769px) and (max-width:1024px){
+
+    .register{
+
+        position: absolute;
+        right: 55px;
+    }
+
+    .dadPhone{
+        position: absolute;
+        left: 55px;
+
+    }
+
+}
+
+@media screen and (min-width:1900px){
+
+    .register{
+        width: 1000px;
+    }
+
+    .dadPhone{
+        left: 500px;
+    }
+}
+
+
+

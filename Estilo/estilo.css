@@ -1,0 +1,469 @@
+body{
+    background-color: #1b2029;
+    height: 100vh;
+    color: white;
+    
+}
+
+.headerInsta{
+    
+    height: 50px;
+    margin-top: 40px;
+    text-align: center;
+}
+
+.logoinsta{
+    height: 40px;
+    
+}
+
+.homemain{
+    width: 100%;
+    height: 600px;
+   
+}
+
+.dadPhone{
+    display: inline-block;
+    position: absolute;
+    top: 40px;
+    left: 200px;
+    height: 520px;
+    width: 451px;   
+   
+    
+}
+
+.dadPhone:hover img{
+    display: none;
+}
+
+.dadPhone:hover .hidden-text{
+    display: block;
+}
+
+.phone{
+    margin: auto;
+    height:500px;
+    width:470px;
+}
+
+
+
+
+
+.hidden-text{
+    display: none;
+    color: white;
+    text-align: center;
+    position: absolute;
+    top: 120px;
+    font-family: 'Pacifico',cursive;
+}
+
+
+
+.register{
+    position: absolute;
+    top: 72px;
+    right: 300px;
+    border: 3px solid white;
+    height: 440px;
+    width: 300px;   
+    border-radius: 20px;
+}
+
+
+
+.iconIMG{
+    margin-top: 5px;
+    text-align: center;
+}
+
+.userPassWord{
+    
+    height: 170px;
+    text-align: center;
+    margin-top: 8px;
+}
+
+input{
+    margin-top: 40px;
+}
+
+.infoUser{
+    text-align: center;
+    color: white;
+    margin-top: 300px;
+}
+
+.buttonLogin{
+    
+    margin-top: 5px;
+    height: 110px;
+    color: white;
+    text-align: center;
+}
+
+.buttonHome{
+    margin-top: 12px;
+}
+
+.textInsta2{
+    position: absolute;
+    top: 25px;
+    left: 60px;
+    color: white;
+    font-family: 'Pacifico',cursive;
+}
+
+.list{
+    
+    position: absolute;
+    top: 80px;
+    left: 65px;
+    list-style: none; 
+    
+  
+}
+
+.linha{
+    margin-top: 38px;
+    cursor: pointer;
+    font-size: 20px;
+    color: white;
+    margin-left: -40px;
+    
+}
+
+.linhaIcon{
+    margin-top: 41px;
+    cursor: pointer;
+    font-size: 17px;
+    color: white;
+    margin-left: -10px;
+}
+
+
+.linha:hover{
+    background: rgb(77, 90, 90);
+    
+
+}
+
+
+.menu{
+    border-right: 1px solid gray;
+    position: fixed;
+    width: 200px;
+    height: 100%;
+
+}
+
+
+
+.iconMenu{
+    
+    width: 10px;
+    height: 490px;
+    position: absolute;
+    top: 80px;
+    left: 5px;
+    list-style: none; 
+}
+
+
+.story{
+    border-bottom: 1px solid gray;
+    margin-top: 35px;
+    position: absolute;
+    left: 250px;
+    width: 780px;
+    height: 100px;
+
+}
+
+
+
+.photo{
+    display: inline-block;
+    height:80px;
+    width:80px;
+    margin-left: 8px;
+    border-radius: 50%;
+    border-top: 4px solid #f707b3;
+    border-right: 3px solid #de3540;
+    border-bottom: 4px solid #f25602;
+    border-left: 3px solid #de3540;;
+    
+}
+
+.suggestion{
+    margin-top: 45px;
+    position: absolute;
+    width: 345px;
+    height: 465px;
+    
+    top: 155px;
+    right: 80px;
+}
+
+.perfil{
+    position: absolute;
+    top: 10px;
+    left: 20px;
+    width: 70px;
+    border-radius: 50px;
+}
+
+.nameProfile{
+    position: absolute;
+    left: 110px;
+    top: 10px;
+    color: white;
+}
+
+.firstname{
+    position: absolute;
+    left: 110px;
+    top: 40px;
+    color: white;
+}
+
+.addProfile{
+    
+    width: 100%;
+    height: 30px;
+    position: absolute;
+    top: 78px;
+    
+}
+
+.sugestão{
+    position: absolute;
+    left: 10px;
+    color: #666165;
+}
+
+.all{
+    position: absolute;
+    right: 15px;
+    color: white;
+}
+
+.profile{
+    position: absolute;
+    top: 120px;
+    width: 100%;
+    height: 70px;
+}
+
+.profile2{
+    
+    position: absolute;
+    bottom: 185px;
+    width: 100%;
+    height: 70px;
+}
+
+.profile3{
+    position: absolute;
+    bottom: 97px;
+    width: 100%;
+    height: 70px;
+}
+
+.profile4{
+    position: absolute;
+    bottom: 10px;
+    width: 100%;
+    height: 70px;
+}
+
+
+.perfil2{
+    position: absolute;
+    top: 5px;
+    left: 20px;
+    width: 60px;
+    border-radius: 50px;
+}
+
+.nameProfile2{
+    position: absolute;
+    left: 90px;
+    top: 1px;
+    color: white;
+    font-size: 17px;
+}
+
+.firstname2{
+    position: absolute;
+    left: 90px;
+    top: 30px;
+    color: white;
+}
+
+.follow{
+    
+    cursor: pointer;
+    position: absolute;
+    right: 10px;
+    color: #2d8fb5;
+}
+
+.home{
+    
+    position: absolute;
+    top: 200px;
+    left: 212px;
+    width: 700px;
+    height: 3185px;
+}
+
+.content{
+    position: absolute;
+    left: 145px;
+    width: 400px;
+}
+
+.content2{
+    position: absolute;
+    top: 800px;
+    left: 145px;
+    width: 400px;
+}
+
+.content3{
+    position: absolute;
+    top: 1550px;
+    left: 145px;
+    width: 400px;
+}
+
+.content4{
+    position: absolute;
+    top: 2350px;
+    left: 145px;
+    width: 400px;
+}
+
+.nomePerfil{ 
+    
+    
+    width: 100%;
+    height: 40px;
+}
+
+.photoFeed{
+    width: 40px;
+    border-radius: 50px;
+
+}
+
+.namefeed{
+    color: white;
+    position: absolute;
+    left: 60px;
+}
+
+.post{
+   
+    width: 100%;
+    height: auto;
+}
+
+.imgpost{
+    width: 100%;
+    height: 500px;
+}
+
+.like{
+    
+    width: 100%;
+    height: 120px;
+
+}
+
+.fa-heart{
+    cursor: pointer;
+    color: white;
+    font-size: 25px;
+    position: absolute;
+    left: 10px;
+    bottom: 90px;
+}
+
+.fa-comment{
+    color: white;
+    font-size: 25px;
+    position: absolute;
+    left: 50px;
+    bottom: 90px;
+}
+
+.numberLike{
+    position: absolute;
+    left: 10px;
+    bottom: 45px;
+    color: white; 
+}
+
+.commentLike{
+    position: absolute;
+    left: 10px;
+    bottom: 25px;
+    color: white; 
+}
+
+
+.publish{
+    
+    position: absolute;
+    width: 100%;
+    height: 40px;
+    border-bottom: 1px solid gray;
+    
+
+}
+
+.comentario{
+    border: none;
+    color: white;
+    width: 75%;
+    position: absolute;
+    bottom: 4px;
+    background: rgba(0, 0, 0, 0);
+    
+}
+
+.buttonComent{
+    cursor: pointer;
+    color:#2d8fb5 ;
+    position: absolute;
+    bottom: 4px;
+    right: 2px;
+    border: none;
+    background: rgba(255, 255, 255, 0);
+}
+
+
+
+
+
+.yes{
+    position: absolute;
+    left: 10px;
+    bottom: 0px;
+    color: white; 
+}
+
+.video{
+    width: 100%;
+    height: 500px;
+}
+
+
+
+
+  

@@ -1,0 +1,438 @@
+@charset "UTF-8";
+
+@media screen and (min-width:1024px) and (max-width:1267px){
+
+    .suggestion{
+        display: none;
+    }
+
+}
+
+@media screen and (min-width:769px) and (max-width:1024px){
+    
+    .suggestion{
+        display: none;
+    }
+
+    .story{
+        
+        width: 680px;
+        left: 210px;
+    }
+
+    .home{
+        width: 680px;
+    }
+
+    .photo{
+        height:77px;
+        width:77px;
+    }
+
+    .list{
+        display: none;
+    }
+
+    h2{
+        display: none;
+    }
+
+    .menu{
+        width: 90px;
+    }
+
+
+}
+
+@media screen and (min-width:426px) and (max-width:768px){
+
+    .suggestion{
+        display: none;
+    }
+
+    .story{
+
+        width: 600px;
+        left: 110px;
+    }
+
+    .home{
+        width: 600px;
+        left: 110px;
+    }
+
+    .content{
+        width: 490px;
+        left:60px ;
+    }
+
+    .content2{
+
+        width: 490px;
+        left:60px ;
+    }
+
+    .content3{
+
+        width: 490px;
+        left:60px ;
+    }
+
+    .content4{
+
+        width: 490px;
+        left:60px ;
+    }
+
+    .photo{
+        height:60px;
+        width:60px;
+    }
+
+    
+
+    .list{
+        display: none;
+    }
+
+    
+
+    .menu{
+        width: 90px;
+    }
+
+    .iconMenu{
+        top: 70px;
+    }
+
+
+}
+
+@media screen  and (min-width:376px) and (max-width:425px){
+
+    .suggestion{
+        display: none;
+    }
+
+    .story{
+        top: 0px;
+        width: 100%;
+        left: 0px;
+    }
+
+    .home{
+        width: 100%;
+        top: 145px;
+        left: 0px;
+    }
+
+    
+
+    .content{
+        width: 100%;
+        left:00px ;
+    }
+
+    .content2{
+
+        width: 100%;
+        left:00px ;
+    }
+
+    .content3{
+
+        width: 100%;
+        left:00px ;
+    }
+
+    .content4{
+
+        width: 100%;
+        left:00px ;
+    }
+
+    .photo{
+        height:40px;
+        width:45px;
+    }
+
+
+    .headerInsta{
+        display: none;
+    }
+
+    .menu{
+        border-top: 1px solid gray;
+        width: 425px;
+        height: 50px;
+        bottom: 0;
+        left: 0px;
+    }
+
+    .linhaIcon{
+        margin-top: 0; 
+        position:absolute ;
+        top: -78px;
+        left: 50px;
+
+    }
+
+    .iconMenu {
+        top: 70px;
+        width: auto;
+        display: flex;
+        justify-content: flex-start;
+        margin-left: 2px; 
+        
+    }
+
+    .fa-bell{
+        display: none;
+    }
+
+    .fa-message{
+        position: absolute;
+        left: 105px;
+        font-size: 30px;
+    }
+
+    .fa-video{
+        position: absolute;
+        left: 270px;
+        font-size: 30px;
+    }
+
+    .fa-earth-americas{
+
+        position: absolute;
+        left: 190px;
+        font-size: 30px;
+    }
+
+    .fa-magnifying-glass{
+        display: none;
+    }
+
+    .fa-house{
+
+        position: absolute;
+        left: 10px;
+        font-size: 30px;
+
+    }
+    
+
+    .list{
+        display: none;
+    }
+
+    .menuPX{
+        display: none;
+    }
+
+    
+
+    
+
+}
+
+
+@media screen and (max-width:375px){
+
+    .suggestion{
+        display: none;
+    }
+
+    .story{
+        top: 0px;
+        width: 100%;
+        left: 0px;
+    }
+
+    .home{
+        width: 100%;
+        top: 145px;
+        left: 0px;
+    }
+
+    
+
+    .content{
+        width: 100%;
+        left:00px ;
+    }
+
+    .content2{
+
+        width: 100%;
+        left:00px ;
+    }
+
+    .content3{
+
+        width: 100%;
+        left:00px ;
+    }
+
+    .content4{
+
+        width: 100%;
+        left:00px ;
+    }
+
+    .photo{
+        height:35px;
+        width:40px;
+    }
+
+
+    .headerInsta{
+        display: none;
+    }
+
+    .menu{
+        border-top: 1px solid gray;
+        width: 425px;
+        height: 50px;
+        bottom: 0;
+        left: 0px;
+    }
+
+    .linhaIcon{
+        margin-top: 0; 
+        position:absolute ;
+        top: -78px;
+        left: 50px;
+
+    }
+
+    .iconMenu {
+        top: 70px;
+        width: auto;
+        display: flex;
+        justify-content: flex-start;
+        margin-left: 2px; 
+        
+    }
+
+    .fa-bell{
+        display: none;
+    }
+
+    .fa-message{
+        position: absolute;
+        left: 90px;
+        font-size: 30px;
+    }
+
+    .fa-video{
+        position: absolute;
+        left: 250px;
+        font-size: 30px;
+    }
+
+    .fa-earth-americas{
+
+        position: absolute;
+        left: 170px;
+        font-size: 30px;
+    }
+
+    .fa-magnifying-glass{
+        display: none;
+    }
+
+    .fa-house{
+
+        position: absolute;
+        left: 0px;
+        font-size: 30px;
+
+    }
+    
+
+    .list{
+        display: none;
+    }
+
+    .menuPX{
+        display: none;
+    }
+
+
+    
+
+    
+}
+
+@media screen and (max-width: 330px){
+
+    .photo{
+        height:35px;
+        width:35px;
+    }
+
+    .fa-house{
+        left: -10px;
+    }
+
+    .fa-message{
+        
+        left: 70px;
+        
+    }
+
+    .fa-earth-americas{
+
+        left: 150px;     
+    }
+
+    .fa-video{
+        
+        left: 230px;
+        
+    }
+}
+
+
+@media screen and (min-width:1650px){
+
+    
+
+    .home{
+        width: 1200px;
+        left: 412px;
+    }
+
+    .content{
+        
+        left: 245px;
+        width: 800px;
+    }
+
+    .content2{
+        
+        left: 245px;
+        width: 800px;
+    }
+
+    .content3{
+        
+        left: 245px;
+        width: 800px;
+    }
+
+    .content4{
+        
+        left: 245px;
+        width: 800px;
+    }
+
+    .story{
+
+        left: 690px;
+        width: 780px;
+        height: 100px;
+    
+    }
+}
