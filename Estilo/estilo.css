@@ -107,6 +107,7 @@ input{
 
 .buttonHome{
     margin-top: 12px;
+    cursor: pointer;
 }
 
 .textInsta2{

@@ -372,6 +372,10 @@
         width:35px;
     }
 
+    .menu{
+        background: rgba(0, 0, 0, 0.527);
+    }
+
     .fa-house{
         left: -10px;
     }
